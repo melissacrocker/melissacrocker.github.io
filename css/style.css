@@ -1,43 +1,43 @@
 /* change page header */
 .page-header {
-color: #ffffff;
+color: #F4F4F4;
 font-size: 30px;
 font-family: "Times New Roman", Times, serif;
-background-color: #000000;
+background-color: #373737;
 }
 
 /* removes underlines from links on scroll over */
 a:link {
 text-decoration: none;
-color: white;
+color: #F4F4F4;
 }
 
 /* changes visited links to white */
 a:visited {
-color: floralwhite;
+color: #F4F4F4;
 }
 
 /* style jumbotron */
 .jumbotron {
-background-color: black;
+background-color: #DCD0C0;
 }
 
 /* styles resume content */
 div#resume {
-color: whitesmoke;
+color: #373737;
 }
 
 /* styles about content */
 div#about {
-color: whitesmoke;
+color: #373737;
 }
 
 /* styels navbar */
 nav.navbar {
-background-color: black;
+background-color: #C0B283;
 }
 
 /* styles footer */
 footer {
-color: floralwhite;
+color: #F4F4F4;
 }
