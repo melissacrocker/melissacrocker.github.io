@@ -1,18 +1,43 @@
-/* change page header*/
-.page-header{
+/* change page header */
+.page-header {
 color: #ffffff;
 font-size: 30px;
 font-family: "Times New Roman", Times, serif;
 background-color: #000000;
 }
 
-/* changes page header link to white*/
-a[href^="index.html"]{ 
-color: white;
-}
-
 /* removes underlines from links on scroll over */
 a:link {
 text-decoration: none;
 color: white;
+}
+
+/* changes visited links to white */
+a:visited {
+color: floralwhite;
+}
+
+/* style jumbotron */
+.jumbotron {
+background-color: black;
+}
+
+/* styles resume content */
+div#resume {
+color: whitesmoke;
+}
+
+/* styles about content */
+div#about {
+color: whitesmoke;
+}
+
+/* styels navbar */
+nav.navbar {
+background-color: black;
+}
+
+/* styles footer */
+footer {
+color: floralwhite;
 }
