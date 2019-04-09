@@ -6,6 +6,13 @@ font-family: "Times New Roman", Times, serif;
 background-color: #373737;
 }
 
+/* styles h1 */
+h1 {
+font-size: 2.5rem;
+font-family: "Times New Roman", Times, serif;
+font-weight: 500;
+}
+
 /* removes underlines from links on scroll over */
 a:link {
 text-decoration: none;
@@ -35,9 +42,12 @@ color: #373737;
 /* styels navbar */
 nav.navbar {
 background-color: #C0B283;
+text-align: center;
 }
 
-/* styles footer */
-footer {
-color: #F4F4F4;
+/* styles thumbnail */
+/*.thumbnail {
+height: 30%;
+width: 30%;
+    
 }
