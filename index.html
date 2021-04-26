@@ -5,11 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<title> Melissa Crocker | Home </title>
 		<meta name= "keywords" content="Melissa Crocker, cartography, GIS, maps" />
-
+        <!-- mapbox -->
+        <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+        <link href="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css" rel="stylesheet">
 		<!--put your Bootstrap stylesheet links below this comment and above style.css-->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 		<link rel="stylesheet" href="css/style.css">
+        <!-- external scripts-->
+        <script src="https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js"></script>
 	</head>
 	<body>
         <div class=”container-fluid”>
@@ -17,11 +21,16 @@
             <div class="page-header">
 	           <h1><a href="index.html">Melissa Crocker </a><small><a href="mailto:macrocker@wisc.edu">Email</a></small></h1>
             </div>
-            <div class="jumbotron">
-                <div class="container">
-                    <p><img class="img-responsive" src="assets/Dragon.JPG" alt="Chinese Dragon in Forest" width="100%"/></p> 
-                </div>
-            </div> 
+            <div id="map"></div>
+                <script>
+                    mapboxgl.accessToken = 'pk.eyJ1IjoicmF2ZW5uYTkiLCJhIjoiY2ptamFyZmRkMDhqeTNxbXU1bWw0dnBybSJ9.vS2g29OoOolOW0Khn3Kl0w';
+                            var map = new mapboxgl.Map({
+                                container: 'map', // container id
+                                style: 'mapbox://styles/ravenna9/cjv6qdxt81b1e1fpfowqneitl', // style URL
+                                center: [-4, 52], // starting position [lng, lat]
+                                zoom: 6 // starting zoom
+                            });
+                </script>
             <nav class="navbar fixed-bottom">
                 <ul style="list-style-type:none">
                     <li class="active"><a href="about.html">About</a></li>
